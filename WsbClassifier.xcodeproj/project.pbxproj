@@ -14,6 +14,7 @@
 		6931B2BB2B0EE22F00744CF7 /* WsbClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6931B2BA2B0EE22F00744CF7 /* WsbClassifierTests.swift */; };
 		6931B2C52B0EE22F00744CF7 /* WsbClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6931B2C42B0EE22F00744CF7 /* WsbClassifierUITests.swift */; };
 		6931B2C72B0EE22F00744CF7 /* WsbClassifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6931B2C62B0EE22F00744CF7 /* WsbClassifierUITestsLaunchTests.swift */; };
+		69C329382B0F4041005FD291 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69C329372B0F4041005FD291 /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		6931B2C02B0EE22F00744CF7 /* WsbClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WsbClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6931B2C42B0EE22F00744CF7 /* WsbClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WsbClassifierUITests.swift; sourceTree = "<group>"; };
 		6931B2C62B0EE22F00744CF7 /* WsbClassifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WsbClassifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69C329372B0F4041005FD291 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		6931B29C2B0EE22E00744CF7 = {
 			isa = PBXGroup;
 			children = (
+				69C329372B0F4041005FD291 /* Config.plist */,
 				6931B2A72B0EE22E00744CF7 /* WsbClassifier */,
 				6931B2B92B0EE22F00744CF7 /* WsbClassifierTests */,
 				6931B2C32B0EE22F00744CF7 /* WsbClassifierUITests */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6931B2B12B0EE22F00744CF7 /* Preview Assets.xcassets in Resources */,
+				69C329382B0F4041005FD291 /* Config.plist in Resources */,
 				6931B2AD2B0EE22F00744CF7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
